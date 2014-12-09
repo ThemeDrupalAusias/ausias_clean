@@ -588,11 +588,96 @@ img.derecha{
    padding: 1em;
 }
 
-@media (min-width: 1199px) {
-.row {
+@media(min-width:1200px){
+ .row {
     max-width: 1170px;
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+
+
+@media(min-width:992px) and (max-width:1199px) {
+ body{
+        font-size: 15px;
+    }
+    
+    .row {
     width: 100%;
     margin: 0px auto;       /* Cambiado el 24/11/2014   0px auto; */
     /*margin-top: 10px;*/       /* Añadida la línea el 19/11/2014 */
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+ body{
+        font-size: 13px;
+    }
+    .row {
+    width: 100%;
+    margin: 0px auto;
+}
+.col-md-3 {
+    width: 49%;
+    margin:1em 0;
+}
+
+#block-system-main div.views-row.views-row.views-row.views-row.col-md-4 > div.views-field.views-field-field-image-page > div > img{
+    width: 40%;
+    float: right;
+    padding: 0.5em 1em;
+}
+
+}
+
+@media(min-width:380px) and (max-width:767px){
+ body{
+        font-size: 12px;
+    }
+    .row {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.col-md-3 {
+    width: 49%;
+    margin:1em 0;
+}
+
+#block-system-main div.views-row.views-row.views-row.views-row.col-md-4 > div.views-field.views-field-field-image-page > div > img{
+    width: 40%;
+    float: right;
+    padding: 0.5em 1em;
+}
+
+#main-top{
+    visibility: hidden;
+}
+.logos_pie img{
+    display: none;
+}
+
+}
+
+@media(max-width:379px){
+    body{
+        font-size: 11px;
+    }
+    
+.row {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.col-md-3 {
+    width: 98%;
+    margin:1em 0;
+}
+
+#main-top{
+    visibility: hidden;
+}
+.logos_pie img{
+    display: none;
 }
 }

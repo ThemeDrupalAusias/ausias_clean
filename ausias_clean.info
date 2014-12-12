@@ -40,6 +40,7 @@ regions[footer] = Footer
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/agenda.css
+stylesheets[all][] = css/ausiasred.css
 
 ; For information on choosing the desired method, please read the Drupal
 ; Bootstrap sub-theme "how-to" documentation:

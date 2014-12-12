@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-dic-2014, 19:28:32
+    Author     : jose
+*/
+
+
+
+
+.sf-menu.sf-style-ausiasred {
+  float: left;
+  /*margin-bottom: 1em;*/
+  padding: 0;
+}
+.sf-menu.sf-style-ausiasred.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-ausiasred ul {
+  padding-left: 0;
+}
+.sf-menu.sf-style-ausiasred a {
+  border: 0px outset #68000e;
+  color: #ffffff;
+  padding: 0.75em 1em;
+}
+.sf-menu.sf-style-ausiasred a.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-ausiasred.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-ausiasred.sf-navbar a {
+  border: 0;
+}
+.sf-menu.sf-style-ausiasred span.sf-description {
+  color: #ffebee;
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-ausiasred li,
+.sf-menu.sf-style-ausiasred.sf-navbar {
+  background: #BE1622;
+}
+
+.sf-menu.sf-style-ausiasred li{
+  border-right-style: none;
+  border-right-color:  #AE0612;
+  border-right-size: 1px;
+}
+.sf-menu.sf-style-ausiasred li li{
+  background: #585858;          /* Valor anterior #AE0612;, sustituido el 19/11/2014 */
+  border-bottom-style: dotted;
+  border-bottom-size: 1px;
+  border-bottom-color: grey             /* Valor anterios #9E0002;, sustituido el 19/11/2014 */
+}
+.sf-menu.sf-style-ausiasred li li li {
+  background: #585858;          /* Valor anterior #AE0612;, sustituido el 19/11/2014 */
+}
+
+.sf-menu.sf-style-ausiasred li:hover, 
+.sf-menu.sf-style-ausiasred a:hover,
+.sf-menu.sf-style-ausiasred li.sfHover,
+.sf-menu.sf-style-ausiasred li.active a,
+.sf-menu.sf-style-ausiasred a:focus,
+.sf-menu.sf-style-ausiasred a:active,
+.sf-menu.sf-style-ausiasred.sf-navbar li li {
+  background: #686868;          /* Valor anterior #AE0612;, sustituido el 19/11/2014 */
+  color: white;
+}
+.sf-menu.sf-style-ausiasred.sf-navbar li ul {
+  background-color: #585858;            /* Valor anterior #AE0612;, sustituido el 19/11/2014 */
+  opacity: 1;
+}
+.sf-menu.sf-style-ausiasred.sf-navbar li ul li ul {
+  background-color: #585858;
+}
+.sf-menu.sf-style-ausiasred ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-ausiasred ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+  margin: 0;
+  padding: 0;
+}
+.sf-menu.sf-style-ausiasred ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+  font-weight: bold;
+}
+.sf-menu.sf-style-ausiasred ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  display: inline;
+  float: left;
+  width: 12em;
+}
+
+
+
+.sf-menu.sf-style-ausiasred.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+  float: right;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-1 ul.sf-megamenu {
+  width: 12em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-2 ul.sf-megamenu {
+  width: 24em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-3 ul.sf-megamenu {
+  width: 36em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-4 ul.sf-megamenu {
+  width: 48em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-5 ul.sf-megamenu {
+  width: 60em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-6 ul.sf-megamenu {
+  width: 72em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-7 ul.sf-megamenu {
+  width: 84em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-8 ul.sf-megamenu {
+  width: 96em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-9 ul.sf-megamenu {
+  width: 108em;
+}
+.sf-menu.sf-style-ausiasred li.sf-parent-children-10 ul.sf-megamenu {
+  width: 120em;
+}

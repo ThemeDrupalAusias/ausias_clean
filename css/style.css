@@ -248,11 +248,10 @@ h2.pane-title > a {
   background-color: #BE1622;
   border-radius: 0px 0px 10px 10px;
   padding: 5px 10px 0px;
-  min-height: 60px;
+  min-height: 4em;
   z-index: 10;
-  position: absolute;
-  width: 90%;
-  bottom:0px;
+  position: relative;
+  bottom:4em;
   
 }
 
@@ -266,6 +265,7 @@ h2.pane-title > a {
     display:inline-block;
    /* margin-top: 50px;  */     /*Línea añadida el 19/11/2014*/
     padding: 0px 15px;
+    max-height: 11.3em;
 }
 
 .noticias-view .field-content img{

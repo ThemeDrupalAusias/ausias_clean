@@ -628,9 +628,6 @@ transition: right 0.15s ease-out 0s;
         font-size: 12px;
     }
 
-
-
-
 #block-system-main div.views-row.views-row.views-row.views-row.col-md-4 > div.views-field.views-field-field-image-page > div > img{
     width: 40%;
     float: right;
@@ -646,15 +643,26 @@ transition: right 0.15s ease-out 0s;
 
 }
 
-@media(max-width:379px){
+
+@media (max-width: 379px) { 
+    .col-ts-12 { 
+        float: none; 
+        width:100%;
+    }
+    
+    .no-float {
+       display:block;
+       float:none;
+       padding:0;
+   }
     body{
         font-size: 11px;
     }
-
-#main-top{
+   #main-top{
     visibility: hidden;
 }
 .logos_pie img{
     display: none;
 }
 }
+

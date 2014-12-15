@@ -233,7 +233,9 @@ ul.language-switcher-locale-url li {float: right;margin-left: 6px;margin-bottom:
 .panel-panel{
 
 }
-
+h2 > a {
+    color: #BE1622;
+}
 
 h2.pane-title > a {
     color: #BE1622;
@@ -281,6 +283,23 @@ h2.pane-title > a {
 
 .noticias-view .field-content a{
     color: white;
+}
+
+/*página de noticias*/
+.page-noticias{
+    padding: 1em;
+}
+
+.image-noticia{
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+.page-noticias .views-row{
+   padding:  1em 1em 0 1em;
+}
+
+.page-noticias .views-row-even{
+    background-color: #EEE;
 }
 
 #destacado .views-row{
@@ -353,10 +372,6 @@ h2.pane-title > a {
     text-align: right;
     font-size:120%; 
     padding-top: 55px;
-}
-
-.sf-menu.sf-style-ausiasred {
-    margin-bottom:0; 
 }
 
 #sidebar-first{
@@ -578,15 +593,6 @@ transition: right 0.15s ease-out 0s;
     background-color: transparent; /* lightgrey;    /* rgb(249,249,249) */
 }
 
-img.izquierda{
-   float: left;
-   padding: 1em;
-}
-
-img.derecha{
-   float: right;
-   padding: 1em;
-}
 
 @media(min-width:1200px){
  .row {
@@ -602,25 +608,12 @@ img.derecha{
         font-size: 15px;
     }
     
-    .row {
-    width: 100%;
-    margin: 0px auto;       /* Cambiado el 24/11/2014   0px auto; */
-    /*margin-top: 10px;*/       /* Añadida la línea el 19/11/2014 */
-}
 }
 
 @media(min-width:768px) and (max-width:991px){
  body{
         font-size: 13px;
     }
-    .row {
-    width: 100%;
-    margin: 0px auto;
-}
-.col-md-3 {
-    width: 49%;
-    margin:1em 0;
-}
 
 #block-system-main div.views-row.views-row.views-row.views-row.col-md-4 > div.views-field.views-field-field-image-page > div > img{
     width: 40%;
@@ -634,15 +627,6 @@ img.derecha{
  body{
         font-size: 12px;
     }
-    .row {
-    width: 100%;
-    margin: 0px auto;
-}
-
-.col-md-3 {
-    width: 49%;
-    margin:1em 0;
-}
 
 #block-system-main div.views-row.views-row.views-row.views-row.col-md-4 > div.views-field.views-field-field-image-page > div > img{
     width: 40%;
@@ -659,25 +643,26 @@ img.derecha{
 
 }
 
-@media(max-width:379px){
+
+@media (max-width: 379px) { 
+    .col-ts-12 { 
+        float: none; 
+        width:100%;
+    }
+    
+    .no-float {
+       display:block;
+       float:none;
+       padding:0;
+   }
     body{
         font-size: 11px;
     }
-    
-.row {
-    width: 90%;
-    margin: 0px auto;
-}
-
-.col-md-3 {
-    width: 98%;
-    margin:1em 0;
-}
-
-#main-top{
+   #main-top{
     visibility: hidden;
 }
 .logos_pie img{
     display: none;
 }
 }
+

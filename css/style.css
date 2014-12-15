@@ -209,6 +209,7 @@ ul.language-switcher-locale-url li {float: right;margin-left: 6px;margin-bottom:
 .carousel-caption h2{
     text-align: left;
     margin-top: 0px;
+    padding-left: 20px;
 }
 
 .carousel-indicators {
@@ -242,6 +243,11 @@ h2.pane-title > a {
     margin: 20px 0px 0px 0px;
 }
 
+#main-upper .views-field-field-image{
+    max-width: 260px;
+}
+
+
 #main-upper .views-field-title{
   text-align: center;
   /* cambios 30 noviembre */
@@ -252,6 +258,7 @@ h2.pane-title > a {
   z-index: 10;
   position: relative;
   bottom:4em;
+  max-width: 260px;
   
 }
 

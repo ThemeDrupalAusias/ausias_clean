@@ -358,6 +358,17 @@ h2.pane-title > a {
     white-space: normal;
 }
 
+.field-name-field-adjunto{
+    float: right;
+    width: 40%;
+    background-color: #D3D3D3;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #666;
+    line-height: 2;
+}
+
 /* ----menu perfiles----- */
 
 .perfiles ul.menu{
@@ -647,7 +658,6 @@ transition: right 0.15s ease-out 0s;
 .logos_pie img{
     display: none;
 }
-
 }
 
 
@@ -672,19 +682,4 @@ transition: right 0.15s ease-out 0s;
     display: none;
 }
 }
-.file > a:nth-child(2) {
-    background-color: lightgrey;
-    text-align: center;
-    float: right;
-    margin-right: 15px;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px #666; 
-}
-.file > a:nth-child(2):before {
-    line-height: normal;
-    background-color: lightgrey;
-    text-decoration: underline;
-    font-weight: bold;
-    line-height: 2em;
-}
+

@@ -210,6 +210,7 @@ ul.language-switcher-locale-url li {float: right;margin-left: 6px;margin-bottom:
 .carousel-caption h2{
     text-align: left;
     margin-top: 0px;
+    padding-left: 20px;
 }
 
 .carousel-indicators {
@@ -243,6 +244,11 @@ h2.pane-title > a {
     margin: 20px 0px 0px 0px;
 }
 
+#main-upper .views-field-field-image{
+    max-width: 260px;
+}
+
+
 #main-upper .views-field-title{
   text-align: center;
   /* cambios 30 noviembre */
@@ -253,6 +259,7 @@ h2.pane-title > a {
   z-index: 10;
   position: relative;
   bottom:4em;
+  max-width: 260px;
   
 }
 
@@ -350,6 +357,17 @@ h2.pane-title > a {
 
 .label{
     white-space: normal;
+}
+
+.field-name-field-adjunto{
+    float: right;
+    width: 40%;
+    background-color: #D3D3D3;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #666;
+    line-height: 2;
 }
 
 /* ----menu perfiles----- */
@@ -629,9 +647,6 @@ transition: right 0.15s ease-out 0s;
         font-size: 12px;
     }
 
-
-
-
 #block-system-main div.views-row.views-row.views-row.views-row.col-md-4 > div.views-field.views-field-field-image-page > div > img{
     width: 40%;
     float: right;
@@ -644,18 +659,28 @@ transition: right 0.15s ease-out 0s;
 .logos_pie img{
     display: none;
 }
-
 }
 
-@media(max-width:379px){
+
+@media (max-width: 379px) { 
+    .col-ts-12 { 
+        float: none; 
+        width:100%;
+    }
+    
+    .no-float {
+       display:block;
+       float:none;
+       padding:0;
+   }
     body{
         font-size: 11px;
     }
-
-#main-top{
+   #main-top{
     visibility: hidden;
 }
 .logos_pie img{
     display: none;
 }
 }
+

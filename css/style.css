@@ -40,7 +40,8 @@ body.page-root-perfiles{
 }
 
 .Estudiar #wrapper {
-    background-image: url('../images/rotonda.jpg');            /* Cambiado el 25/11/2014   fondo-entrada-gris.jpg');*/
+    background-image: url('../images/Est4.jpg');            /* Cambiado el 25/11/2014   fondo-entrada-gris.jpg');*/
+    background-size: cover;
 }
 
 #wrapper {
